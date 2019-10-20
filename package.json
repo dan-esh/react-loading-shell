@@ -2,7 +2,9 @@
   "name": "react-loading-shell",
   "version": "1.0.0",
   "description": "A React shell for CSS loading animations.",
-  "main": "index.js",
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.esm.js",
+  "sideEffects": false,
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "rollup -c",
