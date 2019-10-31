@@ -1,8 +1,12 @@
 import React from 'react'
-import { Ellipsis } from 'react-loading-shell'
+import { Ellipsis, Ring, Ripple } from 'react-loading-shell'
 
-function App () {
-  return <Ellipsis />
-}
+const App = props => (
+  <>
+    <Ellipsis />
+    <Ring />
+    <Ripple />
+  </>
+)
 
 export default App

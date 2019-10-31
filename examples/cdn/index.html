@@ -14,12 +14,16 @@
       <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
     <script src="./node_modules/react-loading-shell/dist/bundle.umd.js"></script>
     <script>
-      const { Ellipsis } = window.ReactLoadingShell
+      const { Ellipsis, Ring, Ripple } = window.ReactLoadingShell
       const container = document.getElementById('container')
-      ReactDOM.render(
-        React.createElement(Ellipsis), 
-        container
-      )
+      const Container = React.createElement(
+        React.Fragment,
+        null,
+        React.createElement(Ellipsis),
+        React.createElement(Ring),
+        React.createElement(Ripple)
+        )
+      ReactDOM.render(Container, container)
     </script>
   </body>
 </html>
