@@ -10,7 +10,11 @@
     "build": "rollup -c",
     "lint": "eslint '**/*.js'",
     "lint:fix": "prettier-eslint '**/*.js' --write",
-    "storybook": "start-storybook",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:staged": "jest --findRelatedTests",
+    "storybook": "start-storybook -p 6006",
     "storybook:build": "build-storybook -c storybook"
   },
   "husky": {
@@ -21,6 +25,7 @@
   "lint-staged": {
     "*.js": [
       "npm run lint:fix",
+      "npm run test:staged",
       "git add"
     ]
   },
@@ -43,8 +48,11 @@
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
     "@babel/preset-react": "^7.6.3",
+    "@storybook/addon-actions": "^5.2.5",
+    "@storybook/addon-links": "^5.2.5",
     "@storybook/addon-options": "^5.2.4",
-    "@storybook/react": "^5.2.4",
+    "@storybook/addons": "^5.2.5",
+    "@storybook/react": "^5.2.5",
     "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
     "eslint": "^6.5.1",
@@ -80,5 +88,6 @@
     "moduleNameMapper": {
       "\\.css$": "<rootDir>/mocks/styles.js"
     }
-  }
+  },
+  "dependencies": {}
 }

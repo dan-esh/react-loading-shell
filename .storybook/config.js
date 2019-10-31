@@ -1,14 +1,4 @@
-import { configure, addParameters } from '@storybook/react'
-import packageJson from '../package.json'
+import { configure } from '@storybook/react'
 
-addParameters({
-  options: {
-    name: 'React CSS Spinners',
-    url: packageJson.repository.url,
-    isFullscreen: false,
-    showPanel: true
-    // more configuration here
-  }
-})
-
-configure(require.context('../src', true, /\.stories\.js$/), module)
+// automatically import all files ending in *.stories.js
+configure(require.context('../stories', true, /\.stories\.js$/), module)
