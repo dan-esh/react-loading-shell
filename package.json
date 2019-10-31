@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vanadium-vole/react-loading-shell.git"
+    "url": "https://github.com/dan-esh/react-loading-shell.git"
   },
   "keywords": [
     "react",
@@ -36,9 +36,9 @@
   "author": "Danesh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vanadium-vole/react-loading-shell/issues"
+    "url": "https://github.com/dan-esh/react-loading-shell/issues"
   },
-  "homepage": "https://github.com/vanadium-vole/react-loading-shell#readme",
+  "homepage": "https://github.com/dan-esh/react-loading-shell#readme",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
