@@ -46,7 +46,7 @@
   "bugs": {
     "url": "https://github.com/dan-esh/react-loading-shell/issues"
   },
-  "homepage": "https://dan-esh.github.io/react-loading-shell/",
+  "homepage": "https://dan-esh.github.io/react-loading-shell/clear",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
