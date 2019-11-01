@@ -6,7 +6,7 @@
 
 [![Build Status](https://travis-ci.org/dan-esh/react-loading-shell.svg?branch=master)](https://travis-ci.org/dan-esh/react-loading-shell)
 
-A React shell for CSS loading animations. See [demo](https://dan-esh.github.io/react-loading-shell)
+A React shell for CSS loading animations. See [demo](https://dan-esh.github.io/react-loading-shell).
 
 ## Installation
 
@@ -44,5 +44,5 @@ import { Ellipsis } from "react-loading-shell";
 
 ## Copyright
 
-CSS spinners from [loading.io](https://loading.io)
-Tutorial from the [Code Realm YouTube Channel](https://www.youtube.com/watch?v=nLwqM034Jjs&list=PLcCp4mjO-z99IPNCrhEyrZimdUG5QXjPd "Code Realm YouTube Channel")
+CSS spinners from [loading.io](https://loading.io) and following a
+tutorial from the [Code Realm](https://www.youtube.com/watch?v=nLwqM034Jjs&list=PLcCp4mjO-z99IPNCrhEyrZimdUG5QXjPd "Code Realm YouTube Channel") YouTube Channel.
