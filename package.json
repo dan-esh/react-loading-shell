@@ -14,8 +14,7 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "test:staged": "jest --findRelatedTests",
-    "storybook": "start-storybook -p 6006",
-    "storybook:build": "build-storybook -c storybook"
+    "storybook": "start-storybook"
   },
   "husky": {
     "hooks": {
@@ -68,8 +67,8 @@
     "lint-staged": "^9.4.2",
     "prettier-eslint": "^9.0.0",
     "prettier-eslint-cli": "^5.0.0",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
     "react-test-renderer": "^16.10.2",
     "rimraf": "^3.0.0",
     "rollup": "^1.25.0",
